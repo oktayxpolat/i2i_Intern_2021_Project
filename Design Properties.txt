@@ -1,0 +1,5 @@
+Blue: #00B796	--> Background Color
+Dark: #303030	--> Button Color
+Red: #770000	--> Logo Color
+Font: Roboto
+Logo Font: Cookie
