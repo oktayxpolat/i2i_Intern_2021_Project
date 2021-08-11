@@ -1,5 +1,7 @@
 Blue: #00B796	--> Background Color
 Dark: #303030	--> Button Color
-Red: #770000	--> Logo Color
+Red: #770000	--> Logo and Question Color
+Green: #0EAA00	--> Scale Color
+Red: #940000	--> Scale Color
 Font: Roboto
 Logo Font: Cookie
