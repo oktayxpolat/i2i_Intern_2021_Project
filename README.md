@@ -1,5 +1,8 @@
 # i2i_Intern_2021_Project
-
+<p align="center">
+<img src="/GUI/i2iCellLogo.png" width="300">
+ </p>
+ 
 ***Project Name:*** i2iCell
 
 ***Project Team Name:*** internCell
