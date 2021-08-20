@@ -39,7 +39,7 @@ List of team members and their responsibilities ordered alphabetically.
 | Ahmet Turhan       | Web (React)           | https://github.com/AhmetTurhan      |
 | Bakana Ahmet         | Web Server            | https://github.com/bakanaAHMETs     |
 | Berkay Altıner     | Helper Server, Hazelcast         | https://github.com/berkayaltiner    |
-| Burak Ceylan       | IOS                   | https://github.com/burak-ceylan     |
+| Burak Ceylan       | IOS                   | https://github.com/burakceylan     |
 | Dilan Kavak        | Test                  | https://github.com/DilanKavak       |
 | Faruk Ceylan       | VoltDB                | https://github.com/FARUKcyln        |
 | Fatma Reyhan Akın  | Web (JSF)             | https://github.com/FReyhan          |
