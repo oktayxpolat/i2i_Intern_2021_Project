@@ -36,8 +36,8 @@ List of team members and their responsibilities ordered alphabetically.
 
 | Person             | Responsible for       | Github Address                      |
 | ------------------ | --------------------- | ----------------------------------- |
-| Ahmet Mişe         | Web Server            | https://github.com/bakanaAHMETs     |
 | Ahmet Turhan       | Web (React)           | https://github.com/AhmetTurhan      |
+| Bakana Ahmet         | Web Server            | https://github.com/bakanaAHMETs     |
 | Berkay Altıner     | Helper Server         | https://github.com/berkayaltiner    |
 | Burak Ceylan       | IOS                   | https://github.com/burak-ceylan     |
 | Dilan Kavak        | Test                  | https://github.com/DilanKavak       |
