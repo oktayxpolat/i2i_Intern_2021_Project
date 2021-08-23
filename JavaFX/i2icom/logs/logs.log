@@ -1,0 +1,101 @@
+14:43:06.446 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+14:45:17.693 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+14:45:21.156 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+14:45:21.438 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:00:18.539 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:00:34.836 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+15:00:35.110 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:12:21.289 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:12:27.238 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+15:12:27.523 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:16:53.924 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:16:57.210 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+15:16:57.488 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:20:18.491 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:20:21.467 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+15:20:21.737 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:20:22.593 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+15:24:22.659 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:24:30.479 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+15:24:30.750 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:24:31.966 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+15:24:56.393 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:24:59.627 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+15:24:59.901 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:25:00.818 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+15:25:37.745 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:25:40.942 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+15:25:41.221 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:25:42.009 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+15:28:52.890 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:28:55.414 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+15:28:55.686 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:28:57.728 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+15:31:07.828 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:31:11.380 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+15:31:11.663 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:31:12.451 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+15:36:07.868 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:36:10.994 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+15:36:11.261 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:36:12.029 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+15:43:17.830 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:43:20.838 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+15:43:21.112 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:43:21.894 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+15:47:13.832 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:47:17.322 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+15:47:17.599 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:47:18.347 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+15:57:00.052 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+15:57:05.247 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+15:57:05.520 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+15:57:06.399 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+16:24:25.109 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:24:28.770 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+16:24:29.341 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+16:24:37.040 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+16:30:27.488 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:30:31.092 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+16:30:31.362 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+16:30:32.087 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+16:33:33.186 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:33:37.543 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+16:33:37.809 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+16:33:38.898 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+16:38:03.850 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:38:08.557 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+16:38:08.821 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+16:38:09.572 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+16:38:41.542 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:38:44.135 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+16:38:44.404 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+16:38:45.133 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+16:48:16.105 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:48:20.654 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+16:48:20.913 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+16:48:21.792 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+16:51:04.662 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:51:10.083 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+16:51:10.342 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+16:51:11.091 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+16:51:47.222 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:51:52.125 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+16:51:52.399 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+16:51:53.160 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+16:53:37.486 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:53:42.618 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+16:53:42.917 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+16:53:43.790 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+16:54:49.516 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+16:54:52.553 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+16:54:52.822 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+16:54:55.584 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+17:00:22.782 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+17:00:25.366 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+17:00:25.634 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+17:00:26.562 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
+17:02:10.777 [JavaFX Application Thread] INFO  com.interncell.Main - Starting
+17:02:13.288 [JavaFX Application Thread] DEBUG com.interncell.controllers.LoginPageController - Login: 5347772945 password.534945.password
+17:02:13.560 [JavaFX Application Thread] INFO  com.interncell.controllers.LoginPageController - burestdegil@gmail.com AHMET bakana 5353535311231 5
+17:02:14.294 [JavaFX Application Thread] INFO  com.interncell.api.ApiConnector - Get packages response code is: 
