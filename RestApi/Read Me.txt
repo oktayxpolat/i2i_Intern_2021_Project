@@ -1,0 +1,5 @@
+in i2iSystems-projectNotRestApi repository, there are
+codes for an API which is not REST. This project
+includes the REST version of that project.
+API is changed because of the need to make easy for
+the users of the API to use that API.
