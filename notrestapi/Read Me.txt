@@ -1,0 +1,4 @@
+in i2iSystems-projectRestApi repository 
+there are code for a REST API version of this
+API. But that API does not include database
+connection.
