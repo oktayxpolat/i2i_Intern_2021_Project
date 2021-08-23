@@ -1,0 +1,13 @@
+<hazelcast-client xmlns="http://www.hazelcast.com/schema/client-config"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://www.hazelcast.com/schema/client-config
+                  http://www.hazelcast.com/schema/client-config/hazelcast-client-config-4.0.xsd">
+    <network>
+        <smart-routing>false</smart-routing>
+        <cluster-members>
+            <address>172.104.149.9:5701</address>
+            <address>172.104.149.9:5702</address>
+            <address>172.104.149.9:5703</address>
+        </cluster-members>
+    </network>
+</hazelcast-client>
