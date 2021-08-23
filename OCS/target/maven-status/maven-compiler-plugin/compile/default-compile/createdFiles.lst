@@ -1,0 +1,13 @@
+serializer\KryoUtils$1.class
+serializer\KryoUtils.class
+serializer\KryoUtils$2.class
+KafkaConsumerOCS.class
+serializer\KryoUtils$3.class
+Producer.class
+voltdb\VoltdbClient.class
+serializer\KryoDeserializer.class
+serializer\KryoSerializer.class
+config\GetConfigFile.class
+serializer\KryoUtils$4.class
+model\UsageKafka.class
+config\KafkaConsumerConfig.class
