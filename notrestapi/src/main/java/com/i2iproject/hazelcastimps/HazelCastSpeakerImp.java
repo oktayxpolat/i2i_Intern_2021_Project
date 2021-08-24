@@ -17,6 +17,7 @@ public class HazelCastSpeakerImp implements HazelCastSpeaker {
 	private static final String topicName = "Balance";
 	
 	private static final ClientConfig clientConfig = new ClientConfig();
+	private static final Object LockForClient = new Object();
 	private static HazelcastInstance client;
 	
 	private String msisdn;
@@ -24,13 +25,15 @@ public class HazelCastSpeakerImp implements HazelCastSpeaker {
 	private HazelCastResponseInfo hazelCastResponseInfo;
 	
 	public HazelCastSpeakerImp() {
-		if(client == null){
+		synchronized(LockForClient){
+			if(client == null){
 			clientConfig.setClusterName("dev");
 			clientConfig.setProperty("hazelcast.logging.type", "none");
 			clientConfig.getNetworkConfig().addAddress(hazelCastAdress);
 			client = HazelcastClient.newHazelcastClient(clientConfig);
 			addHookForShuttingHazelcastClient();
-		}
+			}
+	 	}
 	}
 	
 	private void addHookForShuttingHazelcastClient() {
@@ -58,8 +61,10 @@ public class HazelCastSpeakerImp implements HazelCastSpeaker {
 	}
 	
 	private void initializeHazelcastClient() {
-		if(isHazelCastClientClosedForSomeReason()) 
-			client = HazelcastClient.newHazelcastClient(clientConfig);
+		synchronized(LockForClient){
+			if(isHazelCastClientClosedForSomeReason()) 
+				client = HazelcastClient.newHazelcastClient(clientConfig);
+		}
 	}
 	
 	private boolean isHazelCastClientClosedForSomeReason() {
