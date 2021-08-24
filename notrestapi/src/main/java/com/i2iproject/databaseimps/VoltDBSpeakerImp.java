@@ -39,9 +39,10 @@ public class VoltDBSpeakerImp implements VoltDBSpeaker{
 	private VoltDBSpeakInfo infoToSpeakToVoltDB;
 	
 	public VoltDBSpeakerImp(){
-		if(voltDBClient == null)
+		if(voltDBClient == null){
 			voltDBClient = ClientFactory.createClient(config);
-		addHookForShuttingVoltDBClient();
+			addHookForShuttingVoltDBClient();
+		}
 	}
 	
 	private void addHookForShuttingVoltDBClient() {
