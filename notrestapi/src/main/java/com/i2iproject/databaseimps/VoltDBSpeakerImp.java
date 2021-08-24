@@ -32,6 +32,7 @@ public class VoltDBSpeakerImp implements VoltDBSpeaker{
 	private static final String procedureNameToCall = "GetUserAmount";
 	
 	private static final ClientConfig config = new ClientConfig("interncell","i2icom");
+	private static final Object LockForVoltDBClient = new Object();
 	private static Client voltDBClient;
 	
 	private List<VoltDBHalfOfThePackageInfo> returnVoltDBPackageList;
@@ -39,9 +40,11 @@ public class VoltDBSpeakerImp implements VoltDBSpeaker{
 	private VoltDBSpeakInfo infoToSpeakToVoltDB;
 	
 	public VoltDBSpeakerImp(){
-		if(voltDBClient == null){
-			voltDBClient = ClientFactory.createClient(config);
-			addHookForShuttingVoltDBClient();
+		synchronized(LockForVoltDBClient){
+			if(voltDBClient == null){
+				voltDBClient = ClientFactory.createClient(config);
+				addHookForShuttingVoltDBClient();
+			}
 		}
 	}
 	
@@ -81,8 +84,10 @@ public class VoltDBSpeakerImp implements VoltDBSpeaker{
 	}
 
 	private void initializeVoltDBClient() {
-		if(isVoltDBClientShutDownForSomeReason())
-			voltDBClient = ClientFactory.createClient(config);
+		synchronized(LockForVoltDBClient){
+			if(isVoltDBClientShutDownForSomeReason())
+				voltDBClient = ClientFactory.createClient(config);
+		}
 	}
 	
 	private void businessLogic() throws NoConnectionsException, IOException, ProcCallException {
