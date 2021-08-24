@@ -24,11 +24,13 @@ public class HazelCastSpeakerImp implements HazelCastSpeaker {
 	private HazelCastResponseInfo hazelCastResponseInfo;
 	
 	public HazelCastSpeakerImp() {
-		clientConfig.setClusterName("dev");
-		clientConfig.setProperty("hazelcast.logging.type", "none");
-		clientConfig.getNetworkConfig().addAddress(hazelCastAdress);
-		client = HazelcastClient.newHazelcastClient(clientConfig);
-		addHookForShuttingHazelcastClient();
+		if(client == null){
+			clientConfig.setClusterName("dev");
+			clientConfig.setProperty("hazelcast.logging.type", "none");
+			clientConfig.getNetworkConfig().addAddress(hazelCastAdress);
+			client = HazelcastClient.newHazelcastClient(clientConfig);
+			addHookForShuttingHazelcastClient();
+		}
 	}
 	
 	private void addHookForShuttingHazelcastClient() {
