@@ -55,7 +55,7 @@ public class ReaderOfAllPackagesImp implements ReaderOfAllPackages{
 			establishConnection();
 			configureDatabaseProcedureCallToReadAllPackages();
 			executeConfiguredDatabaseProcedureForReadingAllPackages();
-			getPackagesForAllUser();
+			readPackagesForAllUsers();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -87,18 +87,11 @@ public class ReaderOfAllPackagesImp implements ReaderOfAllPackages{
 		instanceVariables.get().producedCallableStatement.execute();
 	}
 	
-	private void getPackagesForAllUser() throws SQLException {
+	private void readPackagesForAllUsers() throws SQLException {
 		ResultSet packagesForAllUsersTableForExecutingThread = (ResultSet)
 				instanceVariables.get().producedCallableStatement.getObject(packagesForAllUsersTableIndex);
 		instanceVariables.get().packagesForAllUsersTable = packagesForAllUsersTableForExecutingThread;
 		convertResultSetToMap();
-	}
-	
-	private  Map<Integer, List<DatabaseHalfOfPackageInfo>> getPackagesForAllUsers(){
-		 Map<Integer, List<DatabaseHalfOfPackageInfo>> packagesForAllUsersForExecutingThread = 
-				 instanceVariables.get().packagesForAllUsers;
-		 instanceVariables.remove();
-		 return packagesForAllUsersForExecutingThread;
 	}
 	
 	private void convertResultSetToMap() throws SQLException {
@@ -168,4 +161,10 @@ public class ReaderOfAllPackagesImp implements ReaderOfAllPackages{
 		instanceVariables.get().packagesForAllUsers.put(instanceVariables.get().filledDatabasePackageInfo.getUserId(), packagesForTheCurrentUser);
 	}
 	
+	private  Map<Integer, List<DatabaseHalfOfPackageInfo>> getPackagesForAllUsers(){
+		 Map<Integer, List<DatabaseHalfOfPackageInfo>> packagesForAllUsersForExecutingThread = 
+				 instanceVariables.get().packagesForAllUsers;
+		 instanceVariables.remove();
+		 return packagesForAllUsersForExecutingThread;
+	}
 }
